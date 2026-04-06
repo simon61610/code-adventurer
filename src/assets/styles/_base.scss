@@ -1,0 +1,72 @@
+/* ========== Reset 基本重置 ========== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* ========== HTML / Body ========== */
+html {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #333;
+  background-color: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ========== 圖片 / 媒體 ========== */
+img,
+picture,
+video,
+canvas {
+  display: block;
+  max-width: 100%;
+}
+
+/* ========== 表單元素 ========== */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  border: none;
+  outline: none;
+}
+
+/* ========== button reset ========== */
+button {
+  background: none;
+  cursor: pointer;
+}
+
+/* ========== 連結 ========== */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ========== list ========== */
+ul,
+ol {
+  list-style: none;
+}
+
+/* ========== table ========== */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ========== heading ========== */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
