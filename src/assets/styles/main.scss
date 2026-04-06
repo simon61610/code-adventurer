@@ -1,10 +1,11 @@
-@use "./variables" as *;
-@use "./functions" as *;
-@use "./mixin" as *;
+@use "./abstracts/variables" as *;
+@use "./abstracts/functions" as *;
+@use "./abstracts/mixin" as *;
 
-@use "./base";
-@use "./layout";
-@use "./utilities";
+@use "./base/base";
+@use "./layout/layout";
+@use "./utilities/utilities";
 
 // components
-@use "./components/index";
+@use "./components/header";
+@use "./components/button";
