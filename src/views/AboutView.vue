@@ -1,3 +1,4 @@
+<!-- TODO 待刪: 初始檔 -->
 <template>
   <div class="about">
     <h1>This is an about page</h1>

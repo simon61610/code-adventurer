@@ -1,4 +1,15 @@
 import { createRouter, createWebHistory } from 'vue-router'
+
+const router = createRouter({
+  history: createWebHistory(import.meta.env.BASE_URL),
+  routes: [],
+})
+
+export default router
+
+// TODO 待刪: 初始檔
+
+/* import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 
 const router = createRouter({
@@ -20,4 +31,4 @@ const router = createRouter({
   ],
 })
 
-export default router
+export default router */
