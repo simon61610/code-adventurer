@@ -25,20 +25,26 @@ import logo from '@/assets/images/logo.png'
 
 <style scoped lang="scss">
 .header {
-  outline: 1px solid red;
-  padding: 0 40px;
+  // outline: 1px solid red; // TODO 開發用
+
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 $spacing-lg;
 
   // 三欄版型：左 / 中 / 右 -> 1fr = 平分剩餘空間 | auto = 依內容寬度
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   align-items: center;
-  gap: 40px;
+  gap: $spacing-lg;
+
+  background: $color-bg;
+  color: $color-text;
 
   // nav
   .nav {
     display: flex;
-    gap: 60px;
-    font-size: 20px;
+    gap: $spacing-xl;
+    font-size: $font-size-lg;
   }
 
   .nav-left {
@@ -54,7 +60,7 @@ import logo from '@/assets/images/logo.png'
     justify-self: center;
 
     img {
-      height: 200px;
+      max-height: 200px;
       display: block;
     }
   }
